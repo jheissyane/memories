@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: Cambria;
+    box-sizing: border-box;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: .4s;
+}
+
+a:hover {
+    color: #DEC129;
+}
+
+
+form {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .4em;
+}
+
+.form-group input, .form-group textarea {
+    padding: .6em;
+    border: 1px solid #777;
+    color: #777;
+    font-size: .8em;
+}
+
+input[type="submit"] {
+    background-color: #efefef;
+    border: 2px solid transparent;
+    padding: .6em 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: .4s;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    color: #DEC129;
+    border-color: #DEC129;
+}
+
+.validation-error p {
+    color:#dc3545;
+    margin-top: .4em;
+    border-left: 3px solid #D3545C;
+    padding-left: .3em;
+}
+
+.edit-btn, .remove-btn {
+    border: 1px solid #efefef;
+    padding: .4em .8em;
+    font-size: 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .4s;
+}
+
+button fa-icon, a fa-icon{
+    margin-right: .2em;
+}
+
+.edit-btn, .edit-btn path{
+    border-color: #007BFF;
+    color: #007BFF;
+}
+
+.edit-btn:hover, .edit-btn:hover path{
+    background-color: #007BFF;
+    color: #FFF;
+}
+
+.remove-btn, .remove-btn path{
+    border-color: #DC3645;
+    color: #DC3645;
+}
+
+.remove-btn:hover, .remove-btn:hover path{
+    background-color: #DC3645;
+    color: #FFF;
+}
